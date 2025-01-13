@@ -68,13 +68,13 @@ OUT: This is a real datatype wire which can simulate analog values. It is the ou
 
 - simulate post_synth_sim.vcd, used clk and reset from RVMTH core, OUT from DAC:
 
-![image](https://github.com/user-attachments/assets/430b15e9-63dd-4079-a06c-9f7a93e4dc34)
+![image](https://github.com/user-attachments/assets/c8f977f6-17d3-420b-bc58-e29fc494067c)
 
 \core.CLK: This is the input CLK signal of the RVMYTH core. This signal comes from the PLL, originally.
 
 reset: This is the input reset signal of the RVMYTH core. This signal comes from an external source, originally.
 
-OUT: This is the output OUT signal of the VSDBabySoC module. This signal comes from the DAC , originally.
+OUT: This is the output OUT signal of the VSDBabySoC module. This signal comes from the DAC ( in digital form ), originally.
 
 \core.OUT[9:0]: This is the 10-bit output [9:0] OUT port of the RVMYTH core. This port comes from the RVMYTH register #17, originally.
 
