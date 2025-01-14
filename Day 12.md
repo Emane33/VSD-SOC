@@ -61,4 +61,19 @@ network in the inverting adder circuit.
 
 ![image](https://github.com/user-attachments/assets/fda0e949-cc86-4ba1-9cdd-478fff6758f4)
 
-- 
+- modelling DAC
+
+![image](https://github.com/user-attachments/assets/b88eb4a1-d8fd-445a-92a5-f2e6ed2ba948)
+
+- modelling pll
+
+![image](https://github.com/user-attachments/assets/c98f24ac-776c-4271-b062-4d352c5d29b9)
+
+- simulate risc_v and pll 
+
+![image](https://github.com/user-attachments/assets/71e84899-5d8c-4519-afdc-1668770f4538)
+
+
+- simulate  DAC and RVMYTH
+
+![image](https://github.com/user-attachments/assets/e578a084-76a7-4f73-aaca-e093e0a9430b)
