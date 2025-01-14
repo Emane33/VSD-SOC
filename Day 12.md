@@ -56,3 +56,9 @@ network in the inverting adder circuit.
 ![image](https://github.com/user-attachments/assets/b9bae67f-660d-48ce-931a-cb71742ba60c)
 
 # Lab:-
+
+- modelling RVMYTH(RISC-V)
+
+![image](https://github.com/user-attachments/assets/fda0e949-cc86-4ba1-9cdd-478fff6758f4)
+
+- 
