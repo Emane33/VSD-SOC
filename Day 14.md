@@ -25,4 +25,18 @@ vary.
 
 # Lab:-
 
+- installing openSTA from : https://github.com/The-OpenROAD-Project/OpenSTA.git
 
+![image](https://github.com/user-attachments/assets/3a3c3928-ba51-4718-9273-9c95375d5978)
+
+
+- Static timing analysis using OpenSTA:
+
+- Timing Ananlysis Using In line Commands
+  
+![image](https://github.com/user-attachments/assets/d987f3eb-2bc4-4632-90c9-098b075d8d21)
+
+
+- Timing Analysis using TCL file
+
+![image](https://github.com/user-attachments/assets/d28756ef-0ddb-4519-a8ba-377c2e7bdebc)
