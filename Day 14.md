@@ -43,4 +43,24 @@ vary.
 
 - Basics  timing analysis
 
- 
+ ![image](https://github.com/user-attachments/assets/a7cbfd84-b9bf-497e-a441-81b7e8f2d758)
+
+- PVT Corner Analysis (Post-Synthesis Timing)
+
+  ![image](https://github.com/user-attachments/assets/1d508d70-92ba-407d-beb7-8f0944ba1e0b)
+
+- WNS
+  
+  ![image](https://github.com/user-attachments/assets/42aaeee8-54aa-42b8-b102-556f78bc9de1)
+
+- TNS
+
+![image](https://github.com/user-attachments/assets/5f0acbc9-1dd9-4965-b244-3999a0efa149)
+
+- Worst hold slack
+
+  ![image](https://github.com/user-attachments/assets/af9cb23f-bac2-4ec4-b5e6-4c1f2ce063a5)
+
+- Worst setup slack
+
+  ![image](https://github.com/user-attachments/assets/d34764c2-a038-48af-a222-eb681714bc6a)
