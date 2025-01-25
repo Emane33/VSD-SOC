@@ -40,3 +40,7 @@ vary.
 - Timing Analysis using TCL file
 
 ![image](https://github.com/user-attachments/assets/d28756ef-0ddb-4519-a8ba-377c2e7bdebc)
+
+- Basics  timing analysis
+
+ 
