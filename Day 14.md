@@ -1,4 +1,4 @@
-# Synopsys DC and Timing Analysis
+# DC and Timing Analysis
 
 - what is pvt?
 
