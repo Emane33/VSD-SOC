@@ -81,3 +81,48 @@ Resistive operation refers to the behavior of a transistor, such as an NMOS or P
 
 # Lab
 
+- create a netlist in SPICE:
+
+name_of_mosfet  drain_name  gate_name  source_name  substrate_name  technology_file_name  width_of_gate  length_of_gate
+
+- create a netlist for other components, ex. resistor:
+
+  resistor_name  node1_name_where_resistor_in between  node2_name  vlaue
+
+- then add nmos library:
+
+.LIB ''xxxx_025um_model.mod'' CMOS_MODELS
+
+- what is inside xxxx_025um_model.mod?
+  
+.lib cmos_models
+
+.MODEL nmos NMOS (TOX = ( ex. Cox) + VTH0= (Vto) + U0 = ( kn) + GAMMA1 = ( gamma value)
+
+.end1
+
+# Lab practical
+
+- nfet_01v8 cell parameters:
+
+![image](https://github.com/user-attachments/assets/d13e3d88-c594-4cd3-a376-8dea35563602)
+
+- spice corner shows values of width and lenght we should only use:
+
+![image](https://github.com/user-attachments/assets/5bc2ba61-b531-4542-bc16-c0bc533b8a06)
+
+- sky130.lib.spice shows all the libraries included:
+
+![image](https://github.com/user-attachments/assets/cbd2c28f-82a6-42e3-a9d7-efaf87387d51)
+
+- description , tt for typical corner from spice corner file:
+
+![image](https://github.com/user-attachments/assets/106bfc8f-a25b-4128-9c98-26a18c77be04)
+
+- Id grpgh, after 1.5 V which is Vt it goes to cut-off region:
+
+  ![image](https://github.com/user-attachments/assets/af33c173-7467-4f96-813c-1df8f2616e3d)
+
+- for certain point value:
+
+  ![image](https://github.com/user-attachments/assets/89aee2eb-a667-4199-a58b-44f0cbc7db5c)
