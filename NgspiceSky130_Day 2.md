@@ -45,3 +45,19 @@ where in the right is the shorter channel mosfet with linear increase and on the
 - velocity saturation lead to device saturate early.
 
 # Lab
+
+- we are doing simulation in shorter chaneel mosfet:
+
+![image](https://github.com/user-attachments/assets/6d363a66-4757-4dcd-8d7d-59156c635811)
+
+![image](https://github.com/user-attachments/assets/95058d6a-bcdb-46e7-acb4-131e6757c48d)
+
+- now same mosfet but with Id and Vgs:
+
+![image](https://github.com/user-attachments/assets/1fbdcd65-d0b7-4a79-b6d9-60be411e8275)
+
+![image](https://github.com/user-attachments/assets/9387c9b7-70f1-4d54-b69a-9e1277b4b67b)
+
+- calculate Vt for Id vs Vgs:
+
+  ![image](https://github.com/user-attachments/assets/9d7168f7-e737-4314-b0e3-7693e8500635)
