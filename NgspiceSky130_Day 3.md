@@ -14,6 +14,33 @@ This threshold is crucial for ensuring reliable switching, and also Id is the sa
 
 ![image](https://github.com/user-attachments/assets/5601dd5a-bf67-4dbf-a7a0-6ba600da7195)
 
+- becuz Id for pmas = Id for nmos we evaluated the follwoing equation, it helps in determining the appropriate dimensions and parameters for the transistors to achieve a desired switching threshold:
+
+![image](https://github.com/user-attachments/assets/506eb726-6533-4f31-82c2-a0718f1b0103)
+
+- next we increased the size of pmos to find the suitable one, which is 1.2v becuz the falling and rising are the closest to each other, but other numbers have benefits:
+
+![image](https://github.com/user-attachments/assets/5dec2730-cb6a-4d00-8c62-701e61192cdf)
+
+How to Use the Table in Physical Design
+
+- Choosing Transistor Sizes:
+
+The table helps in selecting the appropriate PMOS and NMOS sizes to achieve desired performance characteristics.
+For example, if you want a balanced rise and fall delay, you might choose a size ratio where the rise and fall delays are closest to each other.
+Optimizing Performance:
+
+If minimizing rise delay is critical, you might choose a higher Wp/Lp ratio (e.g., 5 Wn/Ln), which shows the lowest rise delay (37ps).
+Conversely, if fall delay is more critical, you might choose a lower Wp/Lp ratio (e.g., Wn/Ln), which shows the lowest fall delay (71ps).
+
+- Balancing Threshold Voltage:
+
+The switching threshold voltage Vm is crucial for ensuring reliable operation. The table shows how Vmchanges with different size ratios.
+For instance, if you need a switching threshold close to 1.2V, you would choose the size ratio corresponding to Vm  =1.2V.
+
+- Trade-offs:
+
+The table illustrates the trade-offs between rise delay, fall delay, and switching threshold voltage. Designers can use this information to make informed decisions based on the specific requirements of their circuit.
 
 # Lab
 
