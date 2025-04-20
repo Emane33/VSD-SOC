@@ -32,3 +32,10 @@
 
 ![image](https://github.com/user-attachments/assets/0dd3ba0b-3acd-43aa-891b-7e3d2fd851cf)
 
+![image](https://github.com/user-attachments/assets/be829c49-626e-4812-aed0-a44525e87d61)
+
+- plot y vs time a:
+
+![image](https://github.com/user-attachments/assets/6a55dac0-8b3f-4341-b316-0eb6f708de8d)
+
+- 
