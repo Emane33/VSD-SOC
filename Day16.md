@@ -38,4 +38,7 @@
 
 ![image](https://github.com/user-attachments/assets/6a55dac0-8b3f-4341-b316-0eb6f708de8d)
 
-- 
+t_rise: represent the rising time which from 20% to 80%, so 20%= 2.148
+t_fall: represent the falling time from 80% to 20%, so 80%= 1.329
+t_pLH: cell rise delay represent diffrence in time between 50% output rise to 50% input fall, which equals = 3.114
+t_pHL: cell fall delay represen the diffrence in time between 50% output fall to 50% input rise, which equals = 8.693
