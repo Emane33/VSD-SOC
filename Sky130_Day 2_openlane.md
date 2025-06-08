@@ -1,5 +1,14 @@
 # Good floorplan vs bad floorplan and introduction to library cells
 
+- we can see the floorplan variables with their defaults in floorplan.tcl in configuration folder for OpenLane:
+
+![image](https://github.com/user-attachments/assets/6f5258e7-701d-4708-b005-96346d71723a)
+
+- in picorv32a the variables of OpenLane are sets in its configration file:
+
+ ![image](https://github.com/user-attachments/assets/87676a88-b9a8-4f96-9a4b-11396adfba56)
+
+
 - to run floorplan we change run_synthesis to run_floorplan
 
 - content of floorplan def:
