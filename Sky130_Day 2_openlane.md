@@ -8,6 +8,13 @@
 
  ![image](https://github.com/user-attachments/assets/87676a88-b9a8-4f96-9a4b-11396adfba56)
 
+- before run floorplan, we check the config article by checking latest file generate it:
+
+  ![image](https://github.com/user-attachments/assets/0d61c220-33ba-41b2-83dc-92db3e40eb15)
+
+- to check metal layers:
+
+ 
 
 - to run floorplan we change run_synthesis to run_floorplan
 
