@@ -96,4 +96,57 @@ t_pHL: cell fall delay represen the diffrence in time between 50% output fall to
 
 - CU doesn't exist in skywater thats why they are not implemented
 
-  
+  - the rule being violated:
+
+  ![image](https://github.com/user-attachments/assets/bcdd21a4-da94-4e9a-9582-a7a6e54cc1e2)
+
+- to see layers:
+
+![image](https://github.com/user-attachments/assets/88dbf43a-45ea-4ded-a073-a71213baabf1)
+
+- using zoom box we can see it more clear:
+
+![image](https://github.com/user-attachments/assets/1adea881-6afc-44a2-8cba-83f2955a28cd)
+
+- we also can calculate the distance using box command:
+
+  ![image](https://github.com/user-attachments/assets/e2d742fc-f840-44f6-9c45-10e2abaa3e63)
+
+- load poly show us many rules implemented, many are flagged incorrect:
+
+![image](https://github.com/user-attachments/assets/5f6f0eb6-aa9c-4cb4-9509-a2fc9b4507d6)
+
+- this breaks the rule poly:
+
+  ![image](https://github.com/user-attachments/assets/e6e52bac-c8cb-4e44-b867-93f62dfd59f5)
+
+- it shows 0.220 microns but it doesn't violate the rule between polies:
+
+  ![image](https://github.com/user-attachments/assets/e0940e89-d287-4660-bf87-c17c06751ea9)
+
+![image](https://github.com/user-attachments/assets/21348166-2d63-439a-b3a7-8367646222f3)
+
+- to solve issue, use vi sky130A.tech command in terminal and search for poly.9:
+
+  ![image](https://github.com/user-attachments/assets/20dd173b-8116-4e04-9db4-291526872af4)
+
+- we should change it here:
+
+  ![image](https://github.com/user-attachments/assets/bc20a211-7752-4f9d-9353-5ff7c11f9e83)
+
+  - by searching /alias we find this rule:
+ 
+    ![image](https://github.com/user-attachments/assets/d0ebecd3-8c78-4068-ba2a-b95b767d23a8)
+
+
+- press i and change to this and Esc to normal mode:
+
+![image](https://github.com/user-attachments/assets/a830bb80-eb70-4a98-a053-15fb671d9fef)
+
+![image](https://github.com/user-attachments/assets/d4117cde-4e8e-4189-8209-c38ad2af67ad)
+
+- using tech load sky130A.tech and drc check commands it is fixed but not fully:
+
+![image](https://github.com/user-attachments/assets/454e2997-4556-4673-9253-37e69022c654)
+
+ 
