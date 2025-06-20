@@ -149,4 +149,32 @@ t_pHL: cell fall delay represen the diffrence in time between 50% output fall to
 
 ![image](https://github.com/user-attachments/assets/454e2997-4556-4673-9253-37e69022c654)
 
- 
+ - check if layers as they appear even if you can draw one, they are templayer wich shows no output:
+
+![image](https://github.com/user-attachments/assets/d17d4267-b74d-48bc-917c-a3119d5efc4f)
+
+- nwell is allowed to extend on nwelldeep by at least 1.03 microns
+
+- however the rule is violated here:
+
+  ![image](https://github.com/user-attachments/assets/6ce947b7-8a85-4da9-b73a-e0cd83d222f4)
+
+![image](https://github.com/user-attachments/assets/9c674df8-73da-4ee8-a077-aaf4352e200a)
+
+![image](https://github.com/user-attachments/assets/0afbda3e-8534-411a-a67a-208e9ffdc665)
+
+- to see nwells:
+
+  ![image](https://github.com/user-attachments/assets/c6dd891b-fa27-4fc6-905e-c6158077dd84)
+
+![image](https://github.com/user-attachments/assets/a087b2e9-773c-46ac-9fc0-7da2d2ef71a1)
+
+- here incorrect implement of rule eventhough no violation or tap present in nwell:
+
+  ![image](https://github.com/user-attachments/assets/3d243a28-3c28-46a3-b4e7-89f36e24925b)
+
+- to fix change this:
+
+  ![image](https://github.com/user-attachments/assets/578fb8a1-db94-481a-a868-4ac2eb03aa73)
+
+![image](https://github.com/user-attachments/assets/d08e74e2-03b0-4fe5-8a22-aad307c9c917)
