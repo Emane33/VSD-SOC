@@ -70,6 +70,8 @@
 
 ![image](https://github.com/user-attachments/assets/7374c903-be38-4ef9-8977-5de56c030c38)
 
+![image](https://github.com/user-attachments/assets/9d333b2b-3516-4db9-8e85-67d72f0ffcbb)
+
 - after we search for sky130_vsdinv and then write expand:
 
 ![image](https://github.com/user-attachments/assets/703810c0-a932-4f84-bc7a-dac035c97baa)
