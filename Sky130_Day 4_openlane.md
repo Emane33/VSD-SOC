@@ -76,3 +76,74 @@
 
 ![image](https://github.com/user-attachments/assets/703810c0-a932-4f84-bc7a-dac035c97baa)
 
+- to do timing analysis for the initial run:
+
+  ![image](https://github.com/user-attachments/assets/bd60be83-2e33-49d4-9644-344a23353ff8)
+
+- created pre_sta.conf in openlane:
+
+![image](https://github.com/user-attachments/assets/b1e5e207-5061-4cdf-b617-4a2694f53115)
+
+- in picorv32a/src my_base.sdc was created:
+
+  ![image](https://github.com/user-attachments/assets/554be03a-26b5-4990-be3b-a9cb8b1a018c)
+
+- to run STA in terminal:
+
+![image](https://github.com/user-attachments/assets/16774c00-ed69-47f0-830b-03b2c0d7ee9b)
+
+![image](https://github.com/user-attachments/assets/9e6ced55-4b68-4063-98b6-cd4fe6310bb3)
+
+![image](https://github.com/user-attachments/assets/25a1c328-df50-4a26-8f4c-1c2bcf706faa)
+
+![image](https://github.com/user-attachments/assets/ed7570f2-74d7-4c9c-a3f1-a59e75db0f78)
+
+- to reduce fanout which is causing more delay:
+
+  ![image](https://github.com/user-attachments/assets/2bf576c0-7bdc-4554-9467-03f5a1ce805b)
+
+![image](https://github.com/user-attachments/assets/8d3e909f-0f01-45f3-b406-1448ad5ac0aa)
+
+- now re-run pre_sta:
+
+![image](https://github.com/user-attachments/assets/ab67d320-9fec-4ac6-8f66-a7724384561f)
+
+![image](https://github.com/user-attachments/assets/077426c1-2f38-4696-9322-4978d387e706)
+
+- we have an issue that or3_2 is driving 4 fanout, to solve it:
+
+  ![image](https://github.com/user-attachments/assets/6b60bb82-8c55-4dfd-aa03-2d580bf6be91)
+
+![image](https://github.com/user-attachments/assets/558983b6-a843-46b3-bdbd-bc5b61170448)
+
+![image](https://github.com/user-attachments/assets/44db79bd-4858-4b1f-968f-ed4277af85ce)
+
+![image](https://github.com/user-attachments/assets/ac70b308-eabc-4cef-af5c-7617a3f01ed7)
+
+- to replace the netlist with the new netlist generated after CEO timing:
+
+![image](https://github.com/user-attachments/assets/92f1d91c-a5d2-4991-8d8a-b5a4ddcc40e2)
+
+![image](https://github.com/user-attachments/assets/85c2e1ca-7848-4189-8ce1-b47ef587e095)
+
+![image](https://github.com/user-attachments/assets/1bb20790-5dd7-4aa4-acfc-ad23ce3c7177)
+
+![image](https://github.com/user-attachments/assets/c261ca18-9f8c-41ab-ad99-0eb7753dc1c9)
+
+![image](https://github.com/user-attachments/assets/cda65865-687b-45fd-8c60-db19e3c253f4)
+
+![image](https://github.com/user-attachments/assets/18d7c5cf-e264-4e1d-a35f-7d89e8d5c797)
+
+![image](https://github.com/user-attachments/assets/c49dd15c-1f34-4098-b12a-ff265f1bf926)
+
+- POST-CTS openroad timing analysis:
+
+![image](https://github.com/user-attachments/assets/b7cdaf68-a516-4c49-be22-e8fb6064245f)
+
+![image](https://github.com/user-attachments/assets/5b4ec142-7d82-46d0-b5a3-b6483d112afd)
+
+![image](https://github.com/user-attachments/assets/b7e1fb4e-517c-49ea-93eb-f8a5e631ceaa)
+
+![image](https://github.com/user-attachments/assets/17590a9b-7695-4f1e-9544-67316e833b21)
+
+![image](https://github.com/user-attachments/assets/b393ab36-db0d-489b-8c0b-7686cfc7406e)
