@@ -1,27 +1,43 @@
 # Final steps for RTL2GDS using tritonRoute and openSTA
 
-- run_routing:
+- perform generation of PDN and explore its layout:
 
-![image](https://github.com/user-attachments/assets/81d44aea-65ae-4e01-8b9e-26d9d0058356)
+![image](https://github.com/user-attachments/assets/fc959e2a-8e4e-4633-a837-cf5103739c0f)
 
-![image](https://github.com/user-attachments/assets/884508ac-9879-408a-ad2a-3031f8890587)
+![image](https://github.com/user-attachments/assets/36dd36a4-4d4d-4207-a756-120b8bdda10c)
 
-![image](https://github.com/user-attachments/assets/ae77fe11-9187-488c-ab45-caef14fb0f1f)
+![image](https://github.com/user-attachments/assets/dbbb3f1e-ef8f-4737-beaf-a138061237de)
 
-- routed def
+![image](https://github.com/user-attachments/assets/64096127-2091-4ef3-804c-015a2e8338ea)
 
-  ![image](https://github.com/user-attachments/assets/05077120-3b84-434a-be42-6b44dcd13861)
+![image](https://github.com/user-attachments/assets/3f24ac1e-397b-43f4-b33e-c1ebf8df9848)
 
-![image](https://github.com/user-attachments/assets/1d3f1cae-8157-4ff0-9a5f-e82656b658a3)
+![image](https://github.com/user-attachments/assets/67cb3d93-0e12-4e28-a041-e864b3feb053)
 
-- fast route guid
+![image](https://github.com/user-attachments/assets/edbe15f9-a127-44d8-85c1-cdfd32bef21c)
 
-![image](https://github.com/user-attachments/assets/500648ad-bec6-4792-8106-e492ac42aabf)
+![image](https://github.com/user-attachments/assets/7c81032c-78c3-4819-8351-c1f87b407eeb)
 
-- timing reports
+![image](https://github.com/user-attachments/assets/f0c22f10-ab1e-44da-a640-2a10d04d08ca)
 
-  ![image](https://github.com/user-attachments/assets/36a84cae-b280-4455-afdc-9a56ed46c18c)
+![image](https://github.com/user-attachments/assets/aa145715-9204-4fb3-a481-4e86d293a471)
 
-![image](https://github.com/user-attachments/assets/83ef342b-633d-4d98-8091-3d635f75eaa6)
+![image](https://github.com/user-attachments/assets/981bf859-bbc3-4593-8efe-c5c379e9a0a1)
 
-![image](https://github.com/user-attachments/assets/28a346ef-87f6-4eaa-b402-ba3ce3faaef4)
+![image](https://github.com/user-attachments/assets/7b13ebb8-3b15-462c-b5f6-07b51b6768d8)
+
+![image](https://github.com/user-attachments/assets/dc288831-e62f-4c22-8dbb-f210499ba299)
+
+![image](https://github.com/user-attachments/assets/c6910f4c-3611-4242-9f29-5e01fa5ac7ba)
+
+![image](https://github.com/user-attachments/assets/1a873860-0dba-42b2-8467-6a26d50ac15c)
+
+![image](https://github.com/user-attachments/assets/0e1e09fc-16ab-4b78-a259-471747fad015)
+
+![image](https://github.com/user-attachments/assets/9f29f51d-17ca-40a5-aeb2-8cc1a2d61daa)
+
+![image](https://github.com/user-attachments/assets/3216f515-b6b0-45dc-847e-deba484d44c0)
+
+![image](https://github.com/user-attachments/assets/7625f851-8843-4c85-861a-9c290a089b39)
+
+![image](https://github.com/user-attachments/assets/bc375486-55cc-4290-91fc-2f5c392683de)
